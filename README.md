@@ -31,6 +31,6 @@ Abrir en el navegador: http://localhost:8000
 
 | Rol | Nombre |
 |---|---|
-| Líder | Calle Costana Alan Antony |
-| Colaborador 1 | Mamani Chambi Walter |
-| Colaborador 2 | Meneces Maldonado Dan Esequiel |
+| Líder | Calle Costana Alan Antony - lxANTONYxl|
+| Colaborador 1 | Mamani Chambi Walter - walt0004|
+| Colaborador 2 | Meneces Maldonado Dan Esequiel - DanMeneces|
