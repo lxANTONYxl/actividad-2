@@ -6,15 +6,15 @@
 
 body {
   font-family: 'Segoe UI', sans-serif;
-  color: #222;
+  color: #222222;
   background-color: #f9f9f9;
 }
-/* debo colocar los colores similares a los del logo de la uab */
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #00007d;
+  background-color: #003366;
   padding: 1rem 2rem;
   position: sticky;
   top: 0;
@@ -22,7 +22,7 @@ body {
 }
 
 .logo {
-  color: #36c7c7;
+  color: #ffffff;
   font-size: 1.5rem;
   font-weight: bold;
   letter-spacing: 1px;
@@ -35,19 +35,19 @@ body {
 }
 
 .nav-links a {
-  color: #ccc;
+  color: #d1e2f2;
   text-decoration: none;
   font-size: 0.95rem;
   transition: color 0.3s;
 }
 
 .nav-links a:hover {
-  color: #36c7c7;
+  color: #ffffff;
 }
 
 .hero {
-  background: linear-gradient(135deg, #1a1a2e, #0842df);
-  color: #fff;
+  background: linear-gradient(135deg, #001f3f, #003366);
+  color: #ffffff;
   text-align: center;
   padding: 5rem 2rem;
 }
@@ -55,18 +55,18 @@ body {
 .hero h1 {
   font-size: 2.8rem;
   margin-bottom: 1rem;
-  color: #36c7c7;
+  color: #ffffff;
 }
 
 .hero p {
   font-size: 1.1rem;
-  color: #aaa;
+  color: #d1e2f2;
   margin-bottom: 2rem;
 }
 
 .btn-hero {
-  background-color: #36c7c7;
-  color: #fff;
+  background-color: #ffffff;
+  color: #003366;
   padding: 0.8rem 2rem;
   border-radius: 25px;
   text-decoration: none;
@@ -75,12 +75,12 @@ body {
 }
 
 .btn-hero:hover {
-  background-color: #36c7c7;
+  background-color: #f0f4f8;
 }
 
 footer {
-  background-color: #1a1a2e;
-  color: #ccc;
+  background-color: #00152b;
+  color: #d1e2f2;
   padding: 3rem 2rem 1rem;
 }
 
@@ -94,13 +94,13 @@ footer {
 }
 
 .footer-info h3 {
-  color: #e94560;
+  color: #ffffff;
   font-size: 1.4rem;
   margin-bottom: 0.5rem;
 }
 
 .footer-contacto h3 {
-  color: #fff;
+  color: #ffffff;
   margin-bottom: 1rem;
 }
 
@@ -114,16 +114,16 @@ footer {
 .contact-form input,
 .contact-form textarea {
   padding: 0.6rem 0.9rem;
-  border: 1px solid #444;
+  border: 1px solid #003366;
   border-radius: 8px;
-  background: #16213e;
-  color: #fff;
+  background: #002244;
+  color: #ffffff;
   font-size: 0.9rem;
 }
 
 .contact-form button {
-  background-color: #e94560;
-  color: #fff;
+  background-color: #ffffff;
+  color: #003366;
   border: none;
   padding: 0.7rem;
   border-radius: 8px;
@@ -133,17 +133,17 @@ footer {
 }
 
 .contact-form button:hover {
-  background-color: #c73652;
+  background-color: #f0f4f8;
 }
 
 .form-msg {
-  color: #4caf93;
+  color: #4caf50;
   font-size: 0.9rem;
   margin-top: 0.3rem;
 }
 
 .footer-bottom {
-  border-top: 1px solid #333;
+  border-top: 1px solid #002244;
   padding-top: 1.5rem;
   text-align: center;
 }
@@ -157,17 +157,17 @@ footer {
 }
 
 .sociales a {
-  color: #aaa;
+  color: #a3c2e0;
   text-decoration: none;
   font-size: 0.9rem;
   transition: color 0.3s;
 }
 
 .sociales a:hover {
-  color: #e94560;
+  color: #ffffff;
 }
 
 .footer-bottom p {
   font-size: 0.8rem;
-  color: #555;
+  color: #778899;
 }
