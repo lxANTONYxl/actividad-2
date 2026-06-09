@@ -26,5 +26,22 @@
         <a href="#contacto" class="btn-hero">Contáctanos</a>
     </section>
 </body>
+<footer id="contacto">
+  <div class="footer-container">
+    <div class="footer-info">
+      <h3>🌐 MiSitio</h3>
+      <p>Conectamos ideas con tecnología.</p>
+    </div>
+    <div class="footer-contacto">
+      <h3>Contáctanos</h3>
+      <form class="contact-form" onsubmit="enviarFormulario(event)">
+        <input type="text" id="nombre" placeholder="Tu nombre" required />
+        <input type="email" id="email" placeholder="Tu correo" required />
+        <textarea id="mensaje" rows="3" placeholder="Tu mensaje" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+      <p id="form-response" class="form-msg"></p>
+    </div>
+  </div>
 
 </html>
