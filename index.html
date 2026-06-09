@@ -29,7 +29,7 @@
 <footer id="contacto">
   <div class="footer-container">
     <div class="footer-info">
-      <h3>🌐 MiSitio</h3>
+      <h3>🌐 MiSitio-Grupo 2</h3>
       <p>Conectamos ideas con tecnología.</p>
     </div>
     <div class="footer-contacto">
@@ -43,5 +43,26 @@
       <p id="form-response" class="form-msg"></p>
     </div>
   </div>
+  <div class="footer-bottom">
+    <div class="sociales">
+      <a href="#">📘 Facebook</a>
+      <a href="#">🐦 Twitter</a>
+      <a href="#">📸 Instagram</a>
+      <a href="#">💼 LinkedIn</a>
+    </div>
+    <p>© 2026 MiSitio-Grupo 2. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<script>
+  function enviarFormulario(e) {
+    e.preventDefault();
+    const nombre = document.getElementById('nombre').value;
+    const msg = document.getElementById('form-msg') || document.getElementById('form-response');
+    msg.textContent = `✅ Gracias, ${nombre}. Tu mensaje fue recibido.`;
+    e.target.reset();
+  }
+</script>
+
 
 </html>
