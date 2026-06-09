@@ -27,42 +27,31 @@
     </section>
 </body>
 <footer id="contacto">
-  <div class="footer-container">
-    <div class="footer-info">
-      <h3>🌐 MiSitio-Grupo 2</h3>
-      <p>Conectamos ideas con tecnología.</p>
+    <div class="footer-container">
+        <div class="footer-info">
+            <h3>🌐 Sitio-Grupo 2</h3>
+            <p>Conectamos ideas con tecnología.</p>
+        </div>
+        <div class="footer-contacto">
+            <h3>Contáctanos</h3>
+            <form class="contact-form" action="/contacto" method="POST">
+                <input type="text" name="nombre" placeholder="Tu nombre" required />
+                <input type="email" name="email" placeholder="Tu correo" required />
+                <textarea name="mensaje" rows="3" placeholder="Tu mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <p id="form-response" class="form-msg"></p>
+        </div>
     </div>
-    <div class="footer-contacto">
-      <h3>Contáctanos</h3>
-      <form class="contact-form" onsubmit="enviarFormulario(event)">
-        <input type="text" id="nombre" placeholder="Tu nombre" required />
-        <input type="email" id="email" placeholder="Tu correo" required />
-        <textarea id="mensaje" rows="3" placeholder="Tu mensaje" required></textarea>
-        <button type="submit">Enviar</button>
-      </form>
-      <p id="form-response" class="form-msg"></p>
+    <div class="footer-bottom">
+        <div class="sociales">
+            <a href="https://www.facebook.com/TheBatman/">📘 Facebook</a>
+            <a href="https://x.com/Batman">🐦 Twitter</a>
+            <a href="https://www.instagram.com/batman/?hl=es">📸 Instagram</a>
+            <a href="https://www.youtube.com/watch?v=rrmUk2YUm14">💼 LinkedIn</a>
+        </div>
+        <p>© 2026 Sitio-Grupo 2. Todos los derechos reservados.</p>
     </div>
-  </div>
-  <div class="footer-bottom">
-    <div class="sociales">
-      <a href="https://www.facebook.com/TheBatman/">📘 Facebook</a>
-      <a href="https://x.com/Batman">🐦 Twitter</a>
-      <a href="https://www.instagram.com/batman/?hl=es">📸 Instagram</a>
-      <a href="https://www.youtube.com/watch?v=rrmUk2YUm14">💼 LinkedIn</a>
-    </div>
-    <p>© 2026 MiSitio-Grupo 2. Todos los derechos reservados.</p>
-  </div>
 </footer>
-
-<script>
-  function enviarFormulario(e) {
-    e.preventDefault();
-    const nombre = document.getElementById('nombre').value;
-    const msg = document.getElementById('form-msg') || document.getElementById('form-response');
-    msg.textContent = `✅ Gracias, ${nombre}. Tu mensaje fue recibido.`;
-    e.target.reset();
-  }
-</script>
-
 
 </html>
