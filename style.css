@@ -77,3 +77,97 @@ body {
 .btn-hero:hover {
   background-color: #36c7c7;
 }
+
+footer {
+  background-color: #1a1a2e;
+  color: #ccc;
+  padding: 3rem 2rem 1rem;
+}
+
+.footer-container {
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto 2rem;
+}
+
+.footer-info h3 {
+  color: #e94560;
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer-contacto h3 {
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  min-width: 280px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.6rem 0.9rem;
+  border: 1px solid #444;
+  border-radius: 8px;
+  background: #16213e;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.contact-form button {
+  background-color: #e94560;
+  color: #fff;
+  border: none;
+  padding: 0.7rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #c73652;
+}
+
+.form-msg {
+  color: #4caf93;
+  font-size: 0.9rem;
+  margin-top: 0.3rem;
+}
+
+.footer-bottom {
+  border-top: 1px solid #333;
+  padding-top: 1.5rem;
+  text-align: center;
+}
+
+.sociales {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.sociales a {
+  color: #aaa;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s;
+}
+
+.sociales a:hover {
+  color: #e94560;
+}
+
+.footer-bottom p {
+  font-size: 0.8rem;
+  color: #555;
+}
