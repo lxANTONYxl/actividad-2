@@ -6,8 +6,8 @@ class Servidor(BaseHTTPRequestHandler):
     def do_GET(self):
         if self.path == "/":
             self.servir_archivo("index.html", "text/html")
-        elif self.path == "/styles.css":
-            self.servir_archivo("styles.css", "text/css")
+        elif self.path == "/style.css":
+            self.servir_archivo("style.css", "text/css")
         else:
             self.send_response(404)
             self.end_headers()
